@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Messages</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="static/assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+    <body>       
+        	<section id="two" class="wrapper style2 special">
+				<div class="inner narrow">
+					<header>
+						<h2>Put Some Words</h2>
+                        <h4  style="text-transform:lowercase"> I would give you a judgement about polarity.</h4>
+					</header>
+					<form class="grid-form" method="Get" action="/prediction/">
+						<div class="form-control narrow">
+							<label for="name">Name</label>
+							<input name="name" id="name" type="text">
+						</div><p></p>
+						<div class="form-control narrow">
+<!--							
+                    <label for="email">Email</label>
+							<input name="email" id="email" type="email">
+						</div>
+						<div class="form-control">
+-->
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="4"></textarea>
+						</div>
+						<ul class="actions">
+							<li><input value="Send Message" type="submit"></li>
+						</ul>
+					</form>
+				</div>
+			</section>
+    </body>
+</html>
+<!--    
+        <h1>Hello World!</h1>
+        <h2>Welcome to my first demonstration for project</h2>
+        <h2>Please key your review, and I will give you a feedback about prediction of sentiment</h2>
+        <em>{{ current_time }}</em>
+        <form aciton="/prediction/" method="post">
+            <p><label for="user_name">your name:    </label>
+            <input id="user_name" type="text" name="user_name"></p>
+             <p><label for="user_sentiment">your sentiment:</label>
+            <input id="user_sentiment" type="text" name="user_sentiment"> </p>
+             <p><input type="submit" value="submit"> </p>
+        </form>
+
+    </body>
+</html>
+-->

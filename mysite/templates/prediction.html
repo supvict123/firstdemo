@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        		<title>Analysis</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+        {% load staticfiles %} 
+		<link rel="stylesheet" href="{% static 'assets/css/main.css' %}"/>
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    </head>
+    <body>
+        <section id="banner">            
+				<h2><strong>Results</strong><h4>{{ current_time }}</h4></h2>
+				<p> Hello {{ name }},</p>
+        </section>
+            <div class="features">	
+                <strong><h2><p style="font-size:20px"> Review:</p></strong>
+            </div>
+            <div class="features">
+                <p style="font-size:25px">{{ review }}</p> 
+            </div>
+        </header>    
+        <div class="features">
+            <strong><p style="font-size:20px"> Prediction:</p></strong> 
+        </div>
+        <div class="features">
+            <p style="font-size:25px">{{ prediction }}</p> 
+        </div>
+        <div class="features">
+            <strong><p style="font-size:20px"> Probablity:</p></strong>
+        </div>
+        <div class="features">
+            <p style="font-size:25px">{{ probablity }}</p>          
+    	 
+         
+      
+    </body> 
+</html>
